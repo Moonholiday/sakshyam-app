@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Nunito', Arial;
+}
+
+.custom {
+    height: 100vh;
+    padding: 10em;
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+
+    a {
+        color: white;
+        font-weight: bold;
+    }
+
+    &:first-child {
+        background: #3285a8;
+        color: white;
+    }
+
+    &:last-child {
+        background: #4232a8;
+        color: white;
+    }
+}
